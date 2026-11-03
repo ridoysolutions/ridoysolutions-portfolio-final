@@ -73,7 +73,7 @@ export default function ReviewList({ reviews }: { reviews: Review[] }) {
       {pageCount > 1 && (
         <nav
           aria-label="Review pagination"
-          className="mt-9 flex w-full flex-nowrap items-center justify-center gap-1 overflow-x-auto"
+          className="mt-9 flex w-full flex-nowrap items-center justify-end gap-1 overflow-x-auto"
         >
           <button
             aria-label="Previous page"

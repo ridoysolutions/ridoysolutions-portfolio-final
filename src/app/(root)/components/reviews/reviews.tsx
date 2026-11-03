@@ -43,7 +43,11 @@ const Reviews = ({ reviews }: { reviews: Review[] }) => {
       </div>
 
       <div className="reviews-page-actions mt-8 flex flex-nowrap gap-3">
-        <Link href="/reviews?returnTo=%2F%23reviews" className="outline-button whitespace-nowrap">
+        <Link
+          href="/reviews?returnTo=%2F%23reviews"
+          scroll={true}
+          className="outline-button whitespace-nowrap"
+        >
           View All Client Reviews <FaArrowRight className="ml-2 text-[10px]" />
         </Link>
         <Link
